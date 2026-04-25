@@ -34,3 +34,5 @@ If you prefer coding over clicking, Airflow is built for you. Defining workflows
 
 Airflow's rich scheduling and execution semantics make it easy to define complex, recurring piplelines. From the web interface, you can manually trigger Dags, inspect logs, and monitor task status. You can also backfill Dag runs to process historical data, or rerun only failed to minimize cost and time.
 The Airflow platform is highly customizable. 
+
+Because Airflow is opoen source, you're building on components developed, tested, and maintained by global community. You'll find a wealth of learning resources, including blog posts, books and conference talks.
