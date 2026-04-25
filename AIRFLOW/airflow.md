@@ -8,4 +8,12 @@ Airflow workflows are defined entirely in python. This 'workflows as code' appro
 - Extensible: The Airflow framework includes a wide range of built-in operators and can be extended to fit your needs.
 - Flexible: Airflow leverage the Jinga templating engine, allowing rich customizations.
 
-### Dags 
+### DAGs
+DAG (Directed Acyclic Graph) is a powerful tool for managing these workflows efficiently and avoiding errors. 
+A Dag is a model that encapsulates everything needed to execute a workflow. Some Dag attributes include the following:
+
+Schedule: When the workflow should run.
+Tasks: tasks are discrete units of work that are run on workers.
+Task Dependencies: the order and conditions under which tasks execute.
+Callbacks: Actions to take when the entire workflow completes.
+Additional Parameters: And many other operational details.
